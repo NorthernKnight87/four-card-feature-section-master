@@ -58,12 +58,15 @@ html {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   color: hsl(234, 12%, 34%);
+  margin-top: 1.5rem;
 }
 
 h3 {
   font-size: 1.2rem;
   font-weight: 600;
   color: hsl(234, 12%, 34%);
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
 }
 
 .cards {
@@ -80,7 +83,7 @@ h3 {
   border-radius: 10px;
   background-color: hsl(0, 0%, 100%);
   box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
-  padding: 1rem 1.5rem 2rem 1.5rem;
+  padding: 1rem 1.5rem 5rem 1.5rem;
   margin-bottom: 2rem;
   width: 80%;
   font-weight: 200;
@@ -89,8 +92,11 @@ h3 {
 
 .feature_card img {
     position: relative;
-    left: 130px
+    left: 150px;
+    top: 30px;
+    width: 50px;
 }
+
 
 #supervisor_card {
   border-top: 4px solid hsl(180, 62%, 55%);
