@@ -1,0 +1,126 @@
+@font-face {
+  font-family: "Poppins";
+  src: url("fonts/Poppins/Poppins-ExtraLight.ttf") format("truetype");
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("fonts/Poppins-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("fonts/Poppins-Bold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+body {
+  margin: 0 auto;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  background-color: hsl(0, 18%, 96%);
+  width: 24.438rem;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 0.938rem;
+}
+
+.page_intro {
+  text-align: center;
+  margin: 0.8rem;
+}
+
+.page_intro h1 {
+  font-size: 1.8rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  color: hsl(212, 6%, 44%);
+  margin-bottom: 0.5rem;
+}
+
+.page_intro h2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  color: hsl(234, 12%, 34%);
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+}
+
+.page_intro p {
+  font-size: 1.2rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  color: hsl(234, 12%, 34%);
+}
+
+h3 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: hsl(234, 12%, 34%);
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+}
+
+.feature_card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border-radius: 10px;
+  background-color: hsl(0, 0%, 100%);
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+  padding: 1rem 1.5rem 2rem 1.5rem;
+  margin-bottom: 2rem;
+  width: 80%;
+  font-weight: 200;
+  font-size: 0.9rem;
+}
+
+.feature_card img {
+    position: relative;
+    left: 130px
+}
+
+#supervisor_card {
+  border-top: 4px solid hsl(180, 62%, 55%);
+  margin-top: 3rem;
+}
+
+#team_card {
+  border-top: 4px solid hsl(0, 78%, 62%);
+}
+
+#karma_card {
+  border-top: 4px solid hsl(34, 97%, 64%);
+}
+
+#calculator_card {
+  border-top: 4px solid hsl(212, 86%, 64%);
+}
+
+.footer {
+  margin-top: 3rem;
+  position: relative;
+  bottom: 0.313rem;
+  text-align: center;
+  width: 100%;
+}
+
+.attribution {
+  font-size: 0.688rem;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
