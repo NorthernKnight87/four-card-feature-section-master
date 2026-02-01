@@ -91,12 +91,11 @@ h3 {
 }
 
 .feature_card img {
-    position: relative;
-    left: 150px;
-    top: 30px;
-    width: 50px;
+  position: relative;
+  left: 150px;
+  top: 30px;
+  width: 50px;
 }
-
 
 #supervisor_card {
   border-top: 4px solid hsl(180, 62%, 55%);
@@ -129,4 +128,64 @@ h3 {
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+@media only screen and (min-width: 768px) {
+  
+  .page_intro {
+    margin: 1.5rem auto;
+  }
+
+  .page_intro p {
+    font-size: 0.75rem;
+    width: 100%;
+  }
+  .cards {
+    display: grid;
+    grid-template-areas: " supervisor team calculator "
+    "supervisor team calculator"
+    "supervisor karma calculator";
+    grid-template-columns: repeat(3, 100%);
+    grid-template-rows: repeat(3, auto);
+    justify-items: center;
+    padding: 1rem 2rem;
+    box-sizing: border-box;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+    gap: 2rem;
+    width: 100%;
+    position: relative;
+    transform: translateX(-90%);
+  }
+
+  #supervisor_card {
+    grid-area: supervisor;
+    width: 100%;
+    margin-top: 0;
+  }
+
+  #team_card {
+    grid-area: team;
+    width: 100%;
+    margin-bottom: 0;
+  }
+
+  #karma_card {
+    grid-area: karma;
+    width: 100%;
+  }
+
+  #calculator_card {
+    grid-area: calculator;
+    width: 100%;
+    margin-top: 0;
+  }
+
+  .feature_card {
+    padding: 2rem 2rem 4.5rem 2rem;
+  }
+
+  .feature_card p {
+    font-size: 0.8rem;
+  }
 }
