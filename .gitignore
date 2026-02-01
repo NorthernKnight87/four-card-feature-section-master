@@ -2,6 +2,7 @@
 *.sketch
 *.fig
 *.xd
+*.md
 
 # Dependencies
 /node_modules
@@ -38,7 +39,5 @@ npm-debug.log*
 *.pem
 .DS_Store
 Thumbs.db
-/style-guide.md 
-/README.md 
-/README-template.md 
+
 
